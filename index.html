@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>test</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="css/simpleGridTemplate.css" type="text/css"/>
+<link rel="stylesheet" href="css/animation.css" type="text/css"/>
+<link rel="stylesheet" href="css/function.css" type="text/css"/>
+<link rel="stylesheet" href="css/media.css" type="text/css"/>
+<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+<style type="text/css">
+.g-bd5{margin:0 0 10px;}
+.g-sd51,.g-sd52{position:relative;float:left;width:230px;margin:0 -230px 0 0;}
+.g-sd52{float:right;width:190px;margin:0 0 0 -190px;}
+.g-mn5{float:left;width:100%;}
+.g-mn5c{margin:0 200px 0 240px;}
+	
+/* 纯CSS3幻灯手风琴效果hover切换，默认初始收起  */
+.m-demo{width:600px;height:250px;overflow:hidden;}
+.m-demo li{float:left;width:120px;heihgt:100%;box-shadow:0 0 5px rgba(0,0,0,0.5);-webkit-transition:width 0.5s ease-out;-moz-transition:width 0.5s ease-out;-ms-transition:width 0.5s ease-out;transition:width 0.5s ease-out;}
+.m-demo:hover li:not(:hover){width:50px;}
+.m-demo li:hover{width:400px;}
+/* 初始展开  */
+.m-demo-1 li{width:50px;}
+.m-demo-1 li:first-child{width:400px;}
+/* 文本型圆角背景导航 */
+.m-nav,.m-nav li,.m-nav li a,.m-nav .corner{height:40px;line-height:40px;}
+.m-nav,.m-nav li,.m-nav .corner{background:url(nav.png) no-repeat -9999px -9999px;}
+.m-nav{position:relative;margin:0 6px;text-align:center;font-size:0;letter-spacing:-0.307em;*letter-spacing:normal;*word-spacing:-1px;color:#cccccc;background-repeat:repeat-x;background-position:0 0;}
+.m-nav li,.m-nav li a{display:inline-block;*display:inline;*zoom:1;}
+.m-nav li{padding:0 0 0 1px;font-size:14px;letter-spacing:normal;word-spacing:normal;background-position:0 -150px;}
+.m-nav li.first{background:none;}
+.m-nav li a,.m-nav li a:hover{text-decoration:none;color:#000000;}
+.m-nav li a{padding:0 20px;font-weight:bold;}
+.m-nav .corner{position:absolute;top:0;width:6px;overflow:hidden;}
+.m-nav .corner-l{left:-6px;background-position:0 -50px;}
+.m-nav .corner-r{left:100%;background-position:0 -100px;}
+/* 文本型圆角背景导航-居左 */
+.m-nav-1{text-align:left;}
+/* 文本型圆角背景导航-居右 */
+.m-nav-2{text-align:right;}	
+.u-btns{display:inline-block;position:relative;}
+.u-btns .u-btn{float:left;margin-left:-1px;border-radius:0;}
+.u-btns .u-btn:first-child{margin-left:0;border-radius:5px 0 0 5px;}
+.u-btns .u-btn:nth-last-of-type(1){border-radius:0 5px 5px 0;}
+.u-btns .u-btn:only-of-type{border-radius:5px;}
+
+</style>
+</head>
+
+<body>
+<div class="g-bd5 f-cb" >
+    <div class="g-sd51">
+        <p>左侧定宽</p>
+    </div>
+    <div class="g-mn5">
+        <div class="g-mn5c">
+<div class="m-nav m-nav-2" >
+    <ul>
+        <li class="first"><a href="index.html">首页</a></li>
+        <li><a href="01.html">1迷你</a></li>
+        <li><a href="02.html">2模板</a></li>
+        <li><a href="03.html">3无尽</a></li>
+    </ul>
+    <span class="corner corner-l"></span><span class="corner corner-r"></span>
+</div>
+            <p>中间自适应</p> 
+            <section class="intro">
+    <div class="column">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+    </div>
+    <div class="column">
+      <blockquote>
+        <h6> TDA 方舟指令[洛天依][杏辞]</h6>
+      </blockquote>
+    <img src="img/0.gif" alt="" class="profile"> </div>
+  </section>
+        </div>
+        
+    </div>
+    <div class="g-sd52">
+        <p>右侧定宽</p>
+    </div>
+</div>
+<div class="copyright">&copy;2019 - <strong>夏夜之狐</strong></div>
+</body>
+</html>
